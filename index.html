@@ -1,0 +1,113 @@
+ <!DOCTYPE html>
+ <html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.2/dist/leaflet.css" integrity="sha256-sA+zWATbFveLLNqWO2gtiw3HL/lh1giY/Inf1BJ0z14=" crossorigin="" />
+        <script src="https://unpkg.com/leaflet@1.9.2/dist/leaflet.js" integrity="sha256-o9N1jGDZrf5tS+Ft4gbIK7mYMipq9lqpVJ91xHSyKhg=" crossorigin=""></script>
+        <script src="https://d3js.org/d3.v7.min.js"></script>
+        <script src="https://d3js.org/colorbrewer.v1.min.js"></script>
+        <script src="https://d3js.org/d3.v5.min.js"></script>
+        <!-- <script src="https://d3js.org/d3.v4.min.js"></script> -->
+        <script src="main.js"></script>
+        <script src="main1.js"></script>
+        <script src="spatialView.js"></script>
+        <script src="taxiTrips3.js"></script>
+        <script src="taxiTrips9.js"></script>
+        <script src="taxiTrips6.js"></script>
+        <script src="newMultipleView.js"></script>
+        <style>
+            /* path {
+                fill: none;
+                stroke: steelblue;
+                stroke-width: 1.5;
+                stroke-linejoin: round;
+                stroke-linecap: round;
+            } */
+
+            #map {
+                position: absolute;
+                width: 70%;
+                height: 100%;
+            }
+            
+            #plot {
+                position: absolute;
+                left: 72%;
+                width: 28%;
+                height: 100%;
+            }
+
+            #data {
+                height: auto;
+                width: 70%;
+                margin-left: 300;
+                margin-right: 80;
+                font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                font-size: 15px;
+                color: blueviolet;
+            }
+
+            #data1 {
+                height: auto;
+                width: 70%;
+                margin-left: 300;
+                margin-right: 80;
+                font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                font-size: 15px;
+                color: rgb(43, 80, 226);
+            }
+
+            .area {
+                fill: steelblue;
+                clip-path: url(#clip);
+            }
+
+            .zoom {
+                cursor: move;
+                fill: none;
+                pointer-events: all;
+            }
+
+
+            #data6{
+                height: auto;
+                width: 70%;
+                margin-left: 300;
+                margin-right: 80;
+                font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                font-size: 15px;
+                color: blueviolet;
+            }
+
+            #data6_2 {
+                height: auto;
+                width: 70%;
+                margin-left: 300;
+                margin-right: 80;
+                font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                font-size: 15px;
+                color: rgb(43, 80, 226);
+            }
+    </style>
+
+</head>
+ <body >
+    <div id = "data"></div>
+    <div id = "brushPlot"></div>
+    <div id = "data1"></div>
+    <div id = "scatterplot"></div>
+    <div id = "barChart"></div>
+    <div id = "mv"></div>
+
+    <div id = "data6"></div>
+    <div id = "brushPlot6"></div>
+    <div id = "data6_2"></div>
+    <div id = "scatterplot6"></div>
+    <div id = "barChart6"></div>
+    <div id ='map'></div>
+    <div id ='plot'></div>
+    <!-- <script src="https://d3js.org/d3.v4.min.js"></script>
+    <div id="scatterplot1"></div>
+    <div id="choropleth"></div> -->
+ </body>
+ </html>
