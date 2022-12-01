@@ -15,7 +15,8 @@ Based on the taxi trips in March, June, and September, we come up with 4 questio
 3. Comparing the taxi trips in March with June and September, which taxi company has better service based on tips distribution?
 4. Based on the distribution of fares and timeline in March, June, and September, which taxi trips cost the most?
 
-Firstly, we took a reference from a previous project to create three scattered and interactive plots representing the distribution of taxi trips based on distance and fare. By brushing the plots, the user can see the text field displaying the information about the trip by selecting dots. The companies with longer distances and lower fares were Taxi Affiliation Services, Taxicab Insurance Agency, LLC, and Taxicab Insurance Agence, LLC in March, June, and September in Figures 1, 2, and 3.  
+Firstly, we took a reference from a previous project to create three scattered and interactive plots representing the distribution of taxi trips based on distance and fare. By brushing the plots, the user can see the text field displaying the information about the trip by selecting dots. The companies with longer distances and lower fares were Taxi Affiliation Services, Taxicab Insurance Agency, LLC, and Taxicab Insurance Agence, LLC in March, June, and September in Figures 1, 2, and 3.
+
 ![image](https://user-images.githubusercontent.com/80800544/204974662-f30175e8-d4ec-4193-8503-76ffe9213af5.png)
 Figure 1. Single view interactive plot of taxi trips in March
 
@@ -31,6 +32,7 @@ Secondly, we created a spatial visualization with taxi trips and a leaflet libra
 Figure 4. Distribution of top 20 trips in March, June and September
 
 Meanwhile, there were two taxi trips to O’Hare airport. Pointing to the markers, we can see more info about those trips in Figures 5 and 6. The taxi company Flash Cab was more expensive than Taxi Affiliation Service. However, Taxi Affiliation Service achieved higher tips.
+
 ![image](https://user-images.githubusercontent.com/80800544/204972578-a699c69c-782b-4805-97f9-0a661f935fd1.png)
 Figure 5. Comparison between two trips in O’Hare Airport.
 
