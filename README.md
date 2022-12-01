@@ -5,13 +5,16 @@ This is a web page for the CS424 project 3.
 2.	A bunch of source codes and data files were used in this project.
 3.	The web page hosting your visualization interface: https://chloelili22.github.io/index.html
 4.	A jupyter file includes the code for processing data from Chicago Data Portal.
+
 This project is to build a web-based visualization host with single-linked view interactive plots, multiple-linked views interactive plots from previous projects, and additional multiple-lined views and new spatial views. 
 In our project, the dataset is Taxi Trips in March, June, and September 2021 from Chicago Portal. We accessed CSV data from Chicago Data Portal and processed them via jupyter to clean, sort, and remove attributes of data as we needed. Besides the dataset, we encoded the visualizations and host them on the GitHub page with JavaScript and HTML. Inside the HTML and JavaScript, we mainly imported the d3.js library to produce interactive data visualization.
+
 Based on the taxi trips in March, June, and September, we come up with 4 questions as follow:
 1. Comparing the taxi trips in March with June and September, which taxi company is more favorable in fare?
 2. Based on the distribution of the top 20 tips of trips in three months, how do taxi trips distribute in Chicago?
 3. Comparing the taxi trips in March with June and September, which taxi company has better service based on tips distribution?
 4. Based on the distribution of fares and timeline in March, June, and September, which taxi trips cost the most?
+
 Firstly, we took a reference from a previous project to create three scattered and interactive plots representing the distribution of taxi trips based on distance and fare. By brushing the plots, the user can see the text field displaying the information about the trip by selecting dots. The companies with longer distances and lower fares were Taxi Affiliation Services, Taxicab Insurance Agency, LLC, and Taxicab Insurance Agence, LLC in March, June, and September in Figures 1, 2, and 3.  
 ![image](https://user-images.githubusercontent.com/80800544/204972452-2c096b10-fa86-4260-9de5-6038bdd65b24.png) 
 Figure 1. Single view interactive plot of taxi trips in March
