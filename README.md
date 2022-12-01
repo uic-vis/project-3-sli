@@ -1,10 +1,10 @@
 # project-3-sli
 
 This is a web page for the CS424 project 3.
-1.	README.md (this file): This file provides information about the dataset, questions, data transformations, encodings, findings, and interactions.
-2.	A bunch of source codes and data files were used in this project.
-3.	The web page hosting your visualization interface: https://chloelili22.github.io/index.html
-4.	A jupyter file includes the code for processing data from Chicago Data Portal.
+README.md (this file): This file provides information about the dataset, questions, data transformations, encodings, findings, and interactions.
+A bunch of source codes and data files were used in this project.
+The web page hosting your visualization interface: https://chloelili22.github.io/index.html
+A jupyter file includes the code for processing data from Chicago Data Portal.
 
 This project is to build a web-based visualization host with single-linked view interactive plots, multiple-linked views interactive plots from previous projects, and additional multiple-lined views and new spatial views. 
 In our project, the dataset is Taxi Trips in March, June, and September 2021 from Chicago Portal. We accessed CSV data from Chicago Data Portal and processed them via jupyter to clean, sort, and remove attributes of data as we needed. Besides the dataset, we encoded the visualizations and host them on the GitHub page with JavaScript and HTML. Inside the HTML and JavaScript, we mainly imported the d3.js library to produce interactive data visualization.
