@@ -15,10 +15,13 @@ Based on the taxi trips in March, June, and September, we come up with 4 questio
 Firstly, we took a reference from a previous project to create three scattered and interactive plots representing the distribution of taxi trips based on distance and fare. By brushing the plots, the user can see the text field displaying the information about the trip by selecting dots. The companies with longer distances and lower fares were Taxi Affiliation Services, Taxicab Insurance Agency, LLC, and Taxicab Insurance Agence, LLC in March, June, and September in Figures 1, 2, and 3.  
 ![image](https://user-images.githubusercontent.com/80800544/204972452-2c096b10-fa86-4260-9de5-6038bdd65b24.png) 
 Figure 1. Single view interactive plot of taxi trips in March
+
 ![image](https://user-images.githubusercontent.com/80800544/204972478-19f9a438-e304-442d-a425-2922c949fe32.png)
 Figure 2. Single view interactive plot of taxi trips in June
+
 ![image](https://user-images.githubusercontent.com/80800544/204972519-cb8b86c7-3aa1-4a25-a1c6-99ef23e19fd1.png)
 Figure 3. Single view interactive plot of taxi trips in September
+
 Secondly, we created a spatial visualization with taxi trips and a leaflet library. We removed the taxi trips with duplicate coordinates and sorted data based on tips in descending order. We took the top 20 taxi trips and made markers on the map. Zooming on the map clearly displays the distribution of taxi trips in the Chicago area in Figure 4. To classify the trips in different months, red, green, and blue markers are taxi trips from March, June, and September. Since there were some coordinates of trips duplicated with other trips in different months, the markers will overlap with other trips from other months, which is not exactly 20 markers for each month in the graph. In light of this plot, there was a higher density of pedestrians in the downtown loop and lakeshore areas in Chicago. 
 ![image](https://user-images.githubusercontent.com/80800544/204972562-2b04a5ef-34de-42ae-918f-8585c900e2c5.png)
 Figure 4. Distribution of top 20 trips in March, June and September
